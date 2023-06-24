@@ -56,6 +56,29 @@ img{
     object-fit: contain;
 }
 
+/*                Trending Section                */
+
+.trending{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    /* outline: solid; */
+    padding: 4em;
+}
+
+
+
+.title{
+    grid-column: span 2;
+    text-align: center;
+}
+
+.boxes{
+    /* outline: solid; */
+    display:flex;
+    flex-direction: column;
+}
+
 /* L I N K       S T Y L I N G */
 
 a{

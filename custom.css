@@ -60,7 +60,7 @@ img{
 
 .trending{
     display: grid;
-    gap: 1rem;
+    gap: 2rem;
     grid-template-columns: repeat(2, 1fr);
     /* outline: solid; */
     padding: 4em;

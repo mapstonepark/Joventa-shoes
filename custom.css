@@ -1,12 +1,18 @@
 body{
     padding: 2em;
+    --primary-display: 'Cinzel', serif;
+    --primary-body: 'Fauna One', serif;
 }
 
+h2{
+    font-family: var(--primary-display);
+}
 header{
     display:flex;
     align-items: center;
     padding: 0 2em;
     justify-content: space-between;
+    font-family: var(--primary-display);
 }
 
 nav{
@@ -88,9 +94,9 @@ li{
   display: block;
   padding: 12px 24px;
   color: #333;
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--primary-display);
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 400;
   text-decoration: none;
   transition-duration: .25s;
 }
@@ -186,9 +192,9 @@ li{
   display: block;
   padding: 12px 24px;
   color: #333;
-  font-family: var(--primary-body-ff);
+  font-family: var(--primary-display);
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 400;
   text-decoration: none;
   transition-duration: .25s;
 }
@@ -206,6 +212,7 @@ li{
     display: block;
     padding: 12px 24px;
     width: 40ch;
+    font-family: var(--primary-body);
 }
 
 .signIn{

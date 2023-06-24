@@ -6,6 +6,7 @@ body{
 h2{
     font-family: var(--primary-display);
     font-weight: bold;
+    font-size: 2em;
 }
 header{
     display:flex;
@@ -26,6 +27,7 @@ header{
     padding: 1em;
     justify-content: center;
     align-items: center;
+    text-align: center;
     background-color: #CFD8DC;
     font-family: var(--primary-body);
     
@@ -39,6 +41,7 @@ header{
     flex-direction: column;
     align-items: center;
     padding: 2em;
+    font-family: inherit;
     gap: 1em;
 }
 
@@ -62,6 +65,7 @@ img{
     display: grid;
     gap: 2rem;
     grid-template-columns: repeat(2, 1fr);
+    font-family: var(--primary-body);
     /* outline: solid; */
     padding: 4em;
 }
@@ -79,6 +83,20 @@ img{
     flex-direction: column;
 }
 
+.accent{
+    color:darkgray;
+    font-weight: bold;
+}
+
+.description{
+    font-size: small;
+}
+
+.readmore{
+    color:darkred;
+    text-decoration: underline;
+    padding-bottom: 1em;
+}
 /* L I N K       S T Y L I N G */
 
 a{

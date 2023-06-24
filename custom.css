@@ -243,6 +243,13 @@ header{
 .hero button{
     width: 50vw;
 }
+
+.trending{
+    display: grid;
+    gap: 2em;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1em;
+}
 #menu__toggle {
   opacity: 0;
 }

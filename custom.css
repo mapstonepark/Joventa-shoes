@@ -5,6 +5,7 @@ body{
 
 h2{
     font-family: var(--primary-display);
+    font-weight: bold;
 }
 header{
     display:flex;
@@ -13,6 +14,18 @@ header{
     padding: 1em 2em;
     justify-content: space-between;
     font-family: var(--primary-display);
+}
+
+/* L I N K       S T Y L I N G */
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+a:hover{
+    color:blue;
+    
 }
 
 nav{
@@ -27,6 +40,10 @@ li{
 .home{
     font-size: 25px;
  
+}
+
+.more{
+    font-weight: bold;
 }
 
 .hamburger-menu{

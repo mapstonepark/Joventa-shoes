@@ -97,6 +97,26 @@ img{
     text-decoration: underline;
     padding-bottom: 1em;
 }
+
+/*            Footer Section             */
+footer{
+    display: flex;
+    background-color: black;
+    color: gainsboro;
+    width: 100vw;
+    font-family: var(--primary-body);
+    padding: 2em;
+    line-height: 2em;
+    font-weight: bold;
+
+}
+
+.socials{
+    display:flex;
+    justify-content: space-between;
+   
+}
+
 /* L I N K       S T Y L I N G */
 
 a{

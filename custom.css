@@ -16,6 +16,46 @@ header{
     font-family: var(--primary-display);
 }
 
+/*                  B A N N E R S                  */
+
+.banner{
+    height: 10vh;
+    width: 100vw;
+    margin: auto;
+    display: flex;
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+    background-color: #CFD8DC;
+    font-family: var(--primary-body);
+    
+}
+
+
+/*      H E R O     S E C T I O N */
+
+.hero{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    gap: 1em;
+}
+
+
+.hero img{
+  max-width: 100vw;
+  max-height: 70vh;
+ 
+}
+
+
+img{
+    width: 100%; /* or any custom size */
+    height: 100%; 
+    object-fit: contain;
+}
+
 /* L I N K       S T Y L I N G */
 
 a{
@@ -28,6 +68,33 @@ a:hover{
     
 }
 
+/*  Button Styling */
+.dark{
+    background-color: black; 
+    border: solid 1px;
+    border-radius: 25px;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: bold;
+
+}
+.light{
+    background-color: white; 
+    border: solid 1px;
+    border-radius: 25px;
+    color: black;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: bold;
+
+}
 nav{
     display:flex;
     gap: 2em;
@@ -144,6 +211,15 @@ header{
   margin-top: 20px;
 }
 
+.hero img{
+    max-width: 100vw;
+    max-height: 80vh;
+   
+  }
+
+.hero button{
+    width: 50vw;
+}
 #menu__toggle {
   opacity: 0;
 }
@@ -242,32 +318,7 @@ header{
     
 }
 
-.dark{
-    background-color: black; 
-    border: solid 1px;
-    border-radius: 25px;
-    color: white;
-    padding: 10px 30px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1em;
-    font-weight: bold;
 
-}
-.light{
-    background-color: white; 
-    border: solid 1px;
-    border-radius: 25px;
-    color: black;
-    padding: 10px 30px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1em;
-    font-weight: bold;
-
-}
 
 }
      

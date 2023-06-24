@@ -1,5 +1,4 @@
 body{
-    padding: 2em;
     --primary-display: 'Cinzel', serif;
     --primary-body: 'Fauna One', serif;
 }
@@ -10,7 +9,8 @@ h2{
 header{
     display:flex;
     align-items: center;
-    padding: 0 2em;
+    margin-top: 20px;
+    padding: 1em 2em;
     justify-content: space-between;
     font-family: var(--primary-display);
 }
@@ -122,6 +122,10 @@ li{
     
 }
 
+header{
+   
+  margin-top: 20px;
+}
 
 #menu__toggle {
   opacity: 0;
@@ -211,7 +215,7 @@ li{
 .member{
     display: block;
     padding: 12px 24px;
-    width: 40ch;
+    max-width: 40ch;
     font-family: var(--primary-body);
 }
 

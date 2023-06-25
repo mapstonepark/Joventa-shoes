@@ -79,8 +79,8 @@ img{
     padding: 4em;
     width: 80vw;
     margin: 0 auto;
-    
 }
+
 section.trending{
     align-items: center;
 }
@@ -134,7 +134,6 @@ section.trending{
     justify-content: center;
     align-content: center;
     padding: 4em;
- 
    width: 80vw;
 }
 
@@ -430,6 +429,30 @@ header{
 .signIn{
     display: block;
     padding: 12px 24px;
+    
+}
+/*  Trending and Features Section     */
+.trending{
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    font-family: var(--primary-body);
+    padding: 4em;
+    margin: 0 auto;
+}
+
+.featured img{
+    height: 100vh;
+
+}
+
+.features{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 4em;
     
 }
 

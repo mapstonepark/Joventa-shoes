@@ -124,12 +124,6 @@ section.trending{
     align-items: center;
 }
 
-.featured img{
-    height: 30vh;
-  
-
-}
-
 .features{
     display: flex;
     align-content: center;
@@ -441,24 +435,26 @@ header{
     margin: 0 auto;
 }
 
-.featured img{
-    height: 100vh;
-    margin-top: -6em;
-    margin-bottom: -6em;
-
-}
 
 .features{
     display: flex;
+    gap: 2rem;
     flex-direction: column;
-    justify-content: center;
-    align-content: center;
+    font-family: var(--primary-body);
+    padding: 4em;
+    margin: 0 auto;
     text-align: center;
-    padding: 0 4em;
+}
+
+
+
+}
+@media only screen and (min-width: 791px) {
+
+.featured img{
+    height: 40vh;
+  
+
+}
     
 }
-
-
-
-}
-     

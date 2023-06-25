@@ -131,10 +131,9 @@ section.trending{
 
 .features{
     display: flex;
-    justify-content: center;
     align-content: center;
     padding: 4em;
-   width: 80vw;
+    width: 80vw;
 }
 
 .features p {
@@ -452,7 +451,7 @@ header{
     justify-content: center;
     align-content: center;
     text-align: center;
-    padding: 4em;
+    padding: 0 4em;
     
 }
 

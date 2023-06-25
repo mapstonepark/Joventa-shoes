@@ -126,6 +126,7 @@ section.trending{
 
 .featured img{
     height: 30vh;
+  
 
 }
 
@@ -442,6 +443,8 @@ header{
 
 .featured img{
     height: 100vh;
+    margin-top: -6em;
+    margin-bottom: -6em;
 
 }
 

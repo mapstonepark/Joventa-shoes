@@ -431,7 +431,7 @@ header{
     gap: 2rem;
     flex-direction: column;
     font-family: var(--primary-body);
-    padding: 4em;
+    padding: 1em;
     margin: 0 auto;
 }
 
@@ -441,7 +441,7 @@ header{
     gap: 2rem;
     flex-direction: column;
     font-family: var(--primary-body);
-    padding: 4em;
+    padding: 1em;
     margin: 0 auto;
     text-align: center;
 }

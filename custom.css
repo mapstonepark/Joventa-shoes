@@ -9,7 +9,7 @@ body{
 .wrapper{
   background-color: antiquewhite;
   width: 100vw;
-  height: auto;
+  height: 100vw;
   display: flex;
   justify-content: center;
   background-repeat: no-repeat;
@@ -358,11 +358,12 @@ header{
 }
 
 .wrapper{
-  background-color: antiquewhite;
+  background-color: lightcoral;
   width: 100vw;
   height: auto;
   display: flex;
   justify-content: center;
+  outline: solid;
 
   
 }
